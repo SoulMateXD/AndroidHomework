@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#FF66"
+        android:textSize="30sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/register_account"
+                android:layout_height="wrap_content"
+                android:hint="请输入手机号"
+                android:gravity="center"
+                />
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="请输入密码"
+                android:gravity="center"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/register_register"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textColor="#DD5050"
+                android:textSize="20sp"
+                android:background="#00aaaa"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

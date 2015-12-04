@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dip"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/title_back"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:background="@drawable/ic_left"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/title_back"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="登录界面"
+        android:background="#00aaaa"
+        android:textColor="#000000"
+        android:textSize="24sp" /></RelativeLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0">
+        <TableRow>
+            <EditText
+                android:id="@+id/account"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="输入手机号"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/password"
+                android:layout_height="wrap_content"
+                android:hint="请输入密码"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:layout_span="2"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/forget"
+                android:layout_height="wrap_content"
+                android:background="#00aaaaaa"
+                android:text="忘记密码"
+                android:layout_gravity="right"
+                android:textColor="#FF3399"/>
+
+            <Button
+                android:id="@+id/button_loading"
+                android:layout_height="wrap_content"
+                android:background="#00aaaaaa"
+                android:textColor="#FF3399"
+                android:layout_gravity="right"
+                android:text="登录(陆) = =+"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/button_to_level_2_2"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="注册帐号"
+                android:background="#00aaaaaa"
+                android:textColor="#FF3399"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+</LinearLayout>
