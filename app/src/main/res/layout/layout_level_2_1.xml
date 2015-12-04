@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_margin="5dip"
         android:background="@drawable/ic_left"
-        android:textColor="#000000"/>
+        android:textColor="#DD4323"/>
 
     <TextView
         android:id="@+id/title"
@@ -26,8 +26,8 @@
         android:layout_gravity="top"
         android:gravity="center"
         android:text="登录界面"
-        android:background="#00aaaa"
-        android:textColor="#000000"
+        android:background="#00aaaaaa"
+        android:textColor="#DD9885"
         android:textSize="24sp" /></RelativeLayout>
     <TableLayout
         android:layout_width="match_parent"
@@ -62,13 +62,13 @@
                 android:background="#00aaaaaa"
                 android:text="忘记密码"
                 android:layout_gravity="right"
-                android:textColor="#FF3399"/>
+                android:textColor="#FF485962"/>
 
             <Button
                 android:id="@+id/button_loading"
                 android:layout_height="wrap_content"
                 android:background="#00aaaaaa"
-                android:textColor="#FF3399"
+                android:textColor="#FF485962"
                 android:layout_gravity="right"
                 android:text="登录(陆) = =+"/>
 
@@ -80,7 +80,7 @@
                 android:layout_span="2"
                 android:text="注册帐号"
                 android:background="#00aaaaaa"
-                android:textColor="#FF3399"/>
+                android:textColor="#FF485962"/>
         </TableRow>
     </TableLayout>
 

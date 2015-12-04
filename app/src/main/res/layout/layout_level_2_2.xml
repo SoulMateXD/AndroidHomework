@@ -10,7 +10,7 @@
         android:layout_gravity="top"
         android:gravity="center"
         android:text="注册"
-        android:textColor="#FF66"
+        android:textColor="#DD9885"
         android:textSize="30sp"/>
 
     <TableLayout
@@ -45,7 +45,7 @@
                 android:id="@+id/register_register"
                 android:layout_height="wrap_content"
                 android:text="注册"
-                android:textColor="#DD5050"
+                android:textColor="#485962"
                 android:textSize="20sp"
                 android:background="#00aaaa"/>
         </TableRow>
